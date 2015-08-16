@@ -11,7 +11,8 @@ import com.emc.d2fs.services.property_service.SavePropertiesResponse;
 
 /**
  *    SavePropertiesExample -- Demonstrate use of saveProperties() service to set object attributes.
- *  Test
+ *  Test 2 3
+ *  
  *
  */
 public class SavePropertiesExample
