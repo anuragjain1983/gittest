@@ -11,7 +11,7 @@ import com.emc.d2fs.services.property_service.SavePropertiesResponse;
 
 /**
  *    SavePropertiesExample -- Demonstrate use of saveProperties() service to set object attributes.
- *  Test 2 3 4 5
+ *  Test 2 3 4 5 6
  *  
  *
  */
@@ -54,7 +54,7 @@ public class SavePropertiesExample
 		
 		// "list" Attribute -- IMPORTANT: This attribute specifies the names of attributes
 		//     to be saved.  "list" of attribute names separated by DfUtilEx.SEPARATOR_VALUE
-	    final String SEPARATOR_VALUE = "\u00AC";   // Literal "¬";
+	    final String SEPARATOR_VALUE = "\u00AC";   // Literal "Â¬";
 		Attribute list = new Attribute();
 		list.setName("list");
 	    list.setValue("title"+SEPARATOR_VALUE+"object_name");
